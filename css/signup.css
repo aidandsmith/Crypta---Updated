@@ -1,0 +1,126 @@
+.user-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.form-label {
+     font-size: 1.2rem;
+     font-weight: 700;
+}
+
+.slider-count {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.form-btn {
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 0 24px;
+    border-radius: 45px;
+    border: none;
+    background-color: #33845B;
+    color: #fff;
+    cursor: pointer;
+    width: auto;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.cc-box {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.agree-box  {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-control input {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    display: block;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 0.9rem;
+    height: 13px;
+}
+
+.input-control select {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    display: block;
+}
+
+.input-control select:focus {
+    outline: 0;
+}
+
+.input-control.success select {
+    border-color: #09c372;
+}
+
+.input-control.error select {
+    border-color: #ff3860;
+}
+
+@media screen and (max-width: 1200px) {
+    .user-info {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .user-info {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .cc-box {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
